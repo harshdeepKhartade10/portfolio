@@ -95,8 +95,8 @@ body {
     opacity: .7;
 }
 
-#darkmode-icon {
-    font-size: 2.4rem;
+#darkMode-icon {
+    font-size: 2rem;
     color: var(--white-color);
     cursor: pointer;
 }
@@ -444,10 +444,10 @@ span {
     opacity: 1;
 }
 .portfolio-layer h4{
-    font-size: 3rem;
+    font-size: 2rem;
 }
 .portfolio-layer p{
-    font-size: 1.6rem;
+    font-size: 1.1rem;
     margin: .3rem 0 1rem;
 }
 .portfolio-layer a{
