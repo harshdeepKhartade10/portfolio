@@ -24,7 +24,7 @@
 .dark-mode{
     --bg-color: #0b061f;
     --text-color: #fdfdfd;
-    --shadow-color: rgba(0, 0, 0, 0.7);
+    --shadow-color: rgba(0, 0, 0, 0.2);
 }
 
 html {
@@ -285,12 +285,11 @@ section {
     border-bottom: 384px solid var(--main-color);
     border-left: 384px solid transparent;
 }
-
-.home .home-img img {
+.home-img img {
     position: absolute;
-    bottom: 5rem;
-    right: -6rem;
-    width: 40%;
+    bottom: -3.5rem;
+    right: 0;
+    width: 50%;
     pointer-events: none;
     
 }
@@ -696,6 +695,7 @@ span {
 
      }
      .home{
+        display: flex;
         padding: 0 3% 23rem;
         justify-content: center;
         text-align: center;
@@ -758,6 +758,12 @@ span {
         right: 0;
         transform: rotate(90deg) translate(-50% , 50% )scaleY(3);
         border-width: 23.9rem;
+     }
+     .home-img img{
+        /* display: none; */
+        margin-right: 20%;
+        height: 50rem;
+        margin-bottom: 3.2rem;
      }
      .about{
         flex-direction: column-reverse;
@@ -828,7 +834,7 @@ span {
     cursor: pointer;
 }
 /* Header */
-.header {
+/* .header {
     position: fixed;
     top: 0;
     left: 0;
@@ -836,9 +842,9 @@ span {
     background-color: #fff;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     z-index: 1000;
-}
+} */
 
-.container {
+/* .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -858,7 +864,7 @@ span {
     margin-left: 20px;
     font-size: 18px;
     transition: color 0.3s ease;
-}
+} */
 
 .services-box p {
     margin-bottom: 0; /* Remove default bottom margin */
