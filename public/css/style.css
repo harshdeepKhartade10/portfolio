@@ -728,20 +728,32 @@ span {
         transform-origin: 0;
      }
      .home .profession-box .profession:nth-child(1){
-        transform: rotate(-90deg)translate(-115px,-210px);
+        transform: rotate(-90deg)translate(-75px,-260px);
      }
      /* .home .profession-box .profession:nth-child(1) i{
         margin-right: 0;
      } */
      .home .profession-box .profession:nth-child(2){
-        transform: rotate(0deg)translate(0px,-335px);
+        transform: rotate(0deg)translate(0px,-322px);
      }
      .home .profession-box .profession:nth-child(3){
-        transform: rotate(90deg)translate(-115px,-450px);
+        transform: rotate(90deg)translate(-60px,-390px);
      }
     
     .home .profession-box .profession:nth-child(4){
-        transform: rotate(180deg)translate(-320px , -330px);
+        transform: rotate(180deg)translate(-220px , -322px);
+    }
+    .profession-container .profession-box .profession h3 ,  .profession-container .profession-box .profession i{
+        font-size: medium;
+    }
+    .home .profession-box .profession:nth-child(2) i {
+        margin-left: 80px;
+    }
+    .home .profession-box .profession:nth-child(4) i {
+        margin-left: 85px;
+    }
+    .home .profession-box .profession:nth-child(1) i {
+        margin-left: 40px;
     }
 
     .home .profession-box .circle{
@@ -762,8 +774,9 @@ span {
      .home-img img{
         /* display: none; */
         margin-right: 20%;
-        height: 50rem;
+        height: 40rem;
         margin-bottom: 3.2rem;
+        /* display: none; */
      }
      .about{
         flex-direction: column-reverse;
@@ -801,20 +814,34 @@ span {
     }
 
     .home .profession-box .profession:nth-child(1){
-        transform: rotate(-90deg) translate(-110px,-220px);
+        transform: rotate(-90deg) translate(-60px,-260px);
     }
     .home .profession-box .profession:nth-child(2){
-        transform: rotate(0deg) translate(5px,-335px);
+        transform: rotate(0deg) translate(5px,-325px);
+        margin:5rem;
     }
     .home .profession-box .profession:nth-child(3){
-        transform: rotate(90deg) translate(-105px,-440px);
+        transform: rotate(90deg) translate(-60px,-395px);
     }
     .home .profession-box .profession:nth-child(4){
-        transform: rotate(180deg) translate(-210px,-335px);
+        transform: rotate(180deg) translate(-230px,-325px);
     }
     .contact form .input-box  input{
         width: 100%;
     }
+    .profession-container .profession-box .profession h3 ,  .profession-container .profession-box .profession i{
+        font-size: medium;
+    }
+    .home .profession-box .profession:nth-child(2) i {
+        margin-left: 70px;
+    }
+    .home .profession-box .profession:nth-child(4) i {
+        margin-left: 85px;
+    }
+    .home .profession-box .profession:nth-child(1) i {
+        margin-left: 5px;
+    }
+    
 }
 @media (max-width:365px){
     .about-img img{
